@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.trafficLightContainer {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.trafficLightBlock {
+    width: 250px;
+    height: 600px;
+    background-color: black;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.trafficLightIndicator {
+    width: 250px;
+    height: 600px;
+    background-color: black;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 70px;
+}
+
+.light {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.red.active {
+    background-color: red ;
+}
+
+.yellow.active {
+    background-color: yellow;
+}
+
+.green.active {
+    background-color: green;
+}
+
