@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your age</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="ageContainer">
+            <div class="mainContainer">
+                <input type="date" id="dateInput"/>
+                <button id="dateButton">Рассчитать</button>
+            </div>
+
+            <div class="calculatedAge">
+                <div class="calculated">
+                    <h2 id="age">-</h2>
+                    <p>Лет</p>
+                </div>
+                <div class="calculated">
+                    <h2 id="days">-</h2>
+                    <p>Дней</p>
+                </div>
+                <div class="calculated">
+                    <h2 id="hours">-</h2>
+                    <p>Часов</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"
+            integrity="sha512-4F1cxYdMiAW98oomSLaygEwmCnIP38pb4Kx70yQYqRwLVCs3DbRumfBq82T08g/4LJ/smbFGFpmeFlQgoDccgg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+</body>
+</html>
