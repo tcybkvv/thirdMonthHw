@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+}
+
+h1 {
+    color: white;
+    font-size: 55px;
+    margin-top: 100px;
+}
+
+#currencyInput {
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.converterBlocks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.converterBlock {
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.converterBlock:nth-child(1) {
+    background-color: #00a300;
+}
+
+.converterBlock:nth-child(2) {
+    background-color: #4444ff;
+}
+
+.converterBlock:nth-child(3) {
+    background-color: #ff2626;
+}
+
+.converterBlock:nth-child(4) {
+    background-color: #00b6da;
+}
+
+.converterBlock:nth-child(5) {
+    background-color: #dfb600;
+}
